@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.egg-info/
+
+# Databricks & notebooks
+*.dbc
+*.dbc.zip
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
