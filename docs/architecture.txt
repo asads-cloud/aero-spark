@@ -1,0 +1,10 @@
+[Source CSVs] ---> [S3 raw/ingest_date=YYYY-MM-DD/]
+                        ^
+                        | read
+      (trigger job)     |
+[Airflow (MWAA)] ----> [Databricks Spark] ----write Parquet----> [S3 processed/ partitioned]
+                                                                   |
+                                                                   v
+                                                           [Glue Crawler] --> [Glue Catalog] --> [Athena / ML]
+
+Controls/ops: IAM roles & policies; S3 versioning + SSE-S3; CloudWatch logs for MWAA & Databricks jobs.
