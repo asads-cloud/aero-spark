@@ -1,0 +1,5 @@
+# Dev / tooling
+black>=24.3
+isort>=5.13
+ruff>=0.6
+pre-commit>=3.8

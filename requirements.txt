@@ -1,0 +1,5 @@
+# Runtime
+boto3>=1.34
+pandas>=2.2
+pyarrow>=17.0
+great-expectations>=1.0
