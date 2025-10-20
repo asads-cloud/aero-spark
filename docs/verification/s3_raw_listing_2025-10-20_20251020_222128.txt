@@ -1,0 +1,3 @@
+Listing for s3://aero-spark-data-uc3pslda/raw/flight_delays/ingest_date=2025-10-20/ ($(Get-Date -Format s))
+
+2025-10-20 22:00:38       1550 raw/flight_delays/ingest_date=2025-10-20/flight_delays_sample.csv

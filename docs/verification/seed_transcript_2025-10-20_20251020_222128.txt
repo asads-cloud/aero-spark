@@ -1,0 +1,24 @@
+**********************
+PowerShell transcript start
+Start time: 20251020222159
+Username: DESKTOP-DJ87U07\Asad
+RunAs User: DESKTOP-DJ87U07\Asad
+Configuration Name: 
+Machine: DESKTOP-DJ87U07 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 1352
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.19045
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+2025-10-20 22:00:38       1550 raw/flight_delays/ingest_date=2025-10-20/flight_delays_sample.csv
+**********************
+PowerShell transcript end
+End time: 20251020222200
+**********************

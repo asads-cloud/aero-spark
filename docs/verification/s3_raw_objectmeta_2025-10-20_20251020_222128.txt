@@ -1,0 +1,14 @@
+Object metadata for s3://aero-spark-data-uc3pslda/raw/flight_delays/ingest_date=2025-10-20/ ($(Get-Date -Format s))
+
+---- raw/flight_delays/ingest_date=2025-10-20/flight_delays_sample.csv ----
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2025-10-20T21:00:38+00:00",
+    "ContentLength": 1550,
+    "ETag": "\"94265a149e5c383fb656e30197e2363c\"",
+    "VersionId": "Xh.lBbWmJjW_.Ze7XWdBvxCd98NIUAnn",
+    "ContentType": "application/vnd.ms-excel",
+    "ServerSideEncryption": "AES256",
+    "Metadata": {}
+}
+
