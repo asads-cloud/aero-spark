@@ -1,0 +1,32 @@
+{
+  "name": "aero-transform-job",
+  "parameters": [
+    { "name": "input_path",  "default": "dbfs:/Volumes/workspace/scratch/aero_scratch/flight_delays_sample.csv" },
+    { "name": "output_path", "default": "dbfs:/Volumes/workspace/scratch/aero_scratch/processed/" },
+    { "name": "run_date",    "default": "<YYYY-MM-DD>" }
+  ],
+  "environments": [
+    {
+      "environment_key": "env_serverless",
+      "spec": { "client": 4, "channels": ["current"] }
+    }
+  ],
+  "tasks": [
+    {
+      "task_key": "transform",
+      "environment_key": "env_serverless",
+      "spark_python_task": {
+        "python_file": "file:/Workspace/Repos/asadrana.automation@gmail.com/aero-spark/databricks/notebooks/transform.py",
+        "parameters": [
+          "--input_path",  "{{input_path}}",
+          "--output_path", "{{output_path}}",
+          "--run_date",    "{{run_date}}"
+        ]
+      },
+      "max_retries": 1,
+      "timeout_seconds": 0
+    }
+  ],
+  "max_concurrent_runs": 1,
+  "timeout_seconds": 0
+}
