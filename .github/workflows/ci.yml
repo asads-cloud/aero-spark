@@ -18,5 +18,5 @@ jobs:
       - name: Verify repo structure exists
         run: |
           test -d airflow && test -d databricks && test -d expectations && \
-          test -d infrastructure && test -d sample_data && test -d scripts && \
+          test -d infrastructure && test -d data && test -d scripts && \
           test -d .github/workflows && test -d docs
